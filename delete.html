@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deletar</title>
+</head>
+<body>
+    <h1>Excluir clientes</h1>
+    <form action="delete.php" method="post">
+        <label for="deletar">Digite o código que deseja excluir</label>
+        <input type="text" name="deletar" placeholder="Excluir">
+        <input type="submit" value="Excluir Cliente" onclick="return confirm('Deseja realmente excluir o cliente?')">
+    </form>
+    <br>
+    <a href="index.html">Voltar</a>
+</body>
+</html>
